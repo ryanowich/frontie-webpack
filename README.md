@@ -1,10 +1,10 @@
 # Frontie Webpack - Front-end Boilerplate
 
-**🚀 Gulp 4 + Webpack 4 + Babel + BrowserSync + ITCSS Architecture + BEM Methodology**
+**Gulp 4 + Webpack 4 + Babel + BrowserSync + ITCSS Architecture + BEM Methodology**
 
 These tools make it a solid front-end boilerplate to get a new project off the ground.
 
-## :gift: Features
+## Features
 | Features | Description |
 | :------------- | :------------- |
 | Task Runner | [Gulp](http://gulpjs.com/)
