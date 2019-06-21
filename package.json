@@ -79,13 +79,13 @@
     "bem"
   ],
   "author": {
-    "name": "Tomasz Bujnowicz",
-    "email": "hi@tomaszbujnowicz.com",
-    "url": "https://www.tomaszbujnowicz.com"
+    "name": "Ryan Grønborg",
+    "email": "ryan@dotslash.dk",
+    "url": "https://www.dotslash.dk"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tomaszbujnowicz/frontie-webpack/issues"
+    "url": "https://github.com/ryanowich/frontie-webpack/issues"
   },
-  "homepage": "https://github.com/tomaszbujnowicz/frontie-webpack#readme"
+  "homepage": "https://github.com/ryanowich/frontie-webpack#readme"
 }
