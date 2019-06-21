@@ -14,6 +14,7 @@ import { paths } from "../config";
 
 export function serve(cb) {
   browserSync.init({
+    browser: 'google chrome',
     server: {
       baseDir: [ paths.dest ]
     },
