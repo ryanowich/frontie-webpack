@@ -10,20 +10,20 @@ export const paths = {
   styles: {
     src: 'src/styles/main.scss',
     watch: 'src/styles/**/*.scss',
-    modules: 'src/modules/**/*.scss',
+    components: 'src/components/**/*.scss',
     dest: 'dist/css',
     lint: 'src/styles/**/*.s+(a|c)ss'
   },
   scripts: {
     src: './src/scripts/app.js',
     watch: 'src/scripts/**/*.js',
-    modules: 'src/modules/**/*.js',
+    components: 'src/components/**/*.js',
     dest: 'dist/js',
   },
   templates: {
     src: 'src/templates/pages/*.{twig,html}',
     watch: 'src/templates/**/*.{twig,html}',
-    modules: 'src/modules/**/*.{twig,html}',
+    components: 'src/components/**/*.{twig,html}',
     dest: 'dist/'
   },
   assets: {

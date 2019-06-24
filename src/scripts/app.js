@@ -7,24 +7,24 @@
 import 'Utils/_closest.polyfill.js';
 import 'Utils/_matches.polyfill.js';
 
-// Modules
-import carousel from 'Modules/carousel/carousel';
-import navbar from 'Modules/navbar/navbar';
-import searchOverlay from 'Modules/search-overlay/search-overlay';
-
 // Components
-import collapse from 'Components/collapse.js';
-import smoothScroll from 'Components/smooth-scroll';
-import toggleElement from 'Components/toggle-element';
+import carousel from 'Components/carousel/carousel';
+import navbar from 'Components/navbar/navbar';
+import searchOverlay from 'Components/search-overlay/search-overlay';
+
+// JS Components
+import collapse from 'JScomponents/collapse.js';
+import smoothScroll from 'JScomponents/smooth-scroll';
+import toggleElement from 'JScomponents/toggle-element';
 
 document.addEventListener('DOMContentLoaded', function() {
 
-  // Modules
+  // Components
   carousel();
   navbar();
   searchOverlay();
 
-  // Components
+  // JS Components
   collapse();
   smoothScroll();
   toggleElement();

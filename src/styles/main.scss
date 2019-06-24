@@ -32,7 +32,7 @@
  *                     e.g. buttons, forms, header, footer etc...
  * 7. Utilities........Helpers and overrides.
  *
- *    Modules..........Multi-part components.
+ *    Components.......Multi-part components.
  *                     e.g. Navbar (HTML, CSS and JS).
  *    Shame............All the CSS, hacks and things we are not proud of.
  */
@@ -42,7 +42,7 @@
 @import 'generic/**/*.scss';
 @import 'elements/**/*.scss';
 @import 'objects/**/*.scss';
-@import 'components/**/*.scss';
 @import 'utilities/**/*.scss';
-@import '../modules/**/*.scss';
+@import 'typographic/**/*.scss';
+@import '../components/**/*.scss';
 @import 'shame';

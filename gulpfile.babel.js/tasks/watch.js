@@ -19,9 +19,9 @@ import { copy } from './copy';
 import { paths } from "../config";
 
 function watchFiles() {
-  gulp.watch([paths.styles.watch, paths.styles.modules], styles);
-  gulp.watch([paths.scripts.watch, paths.scripts.modules], series(scripts, reload));
-  gulp.watch([paths.templates.watch, paths.templates.modules], series(templates, reload));
+  gulp.watch([paths.styles.watch, paths.styles.components], styles);
+  gulp.watch([paths.scripts.watch, paths.scripts.components], series(scripts, reload));
+  gulp.watch([paths.templates.watch, paths.templates.components], series(templates, reload));
   gulp.watch(paths.assets.src, series(assets, reload));
   gulp.watch(paths.copy.src, series(copy, reload));
 }

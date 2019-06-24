@@ -23,7 +23,7 @@ Make sure all dependencies have been installed before moving on:
 
 * [yarn](https://yarnpkg.com/lang/en/) or [npm](https://www.npmjs.com/get-npm)
 * [Node.js](https://nodejs.org/en/download/) >= 8.16.0
-* [Gulp](http://gulpjs.com/)
+* [Gulp 4](http://gulpjs.com/)
 
 ### Quick start: Installation
 Clone this repository and run
@@ -48,7 +48,7 @@ Clone this repository and run
 |  |--assets/              # →  Assets
 |  |  |--fonts/            # →  Assets: Fonts
 |  |  |--img/              # →  Assets: Images
-|  |--modules/             # →  Modules: Multi-part components e.g. Navbar (HTML, CSS and JS)
+|  |--components/          # →  Components: HTML, CSS and JS in the same folder
 |  |--scripts/             # →  JS
 |  |  |--components/       # →  JS: Components
 |  |  |--app.js            # →  JS: Main file

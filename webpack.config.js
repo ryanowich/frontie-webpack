@@ -73,8 +73,8 @@ const webpackConfig = {
 
   resolve: {
     alias: {
-      Modules: path.resolve(__dirname, 'src/modules/'),
-      Components: path.resolve(__dirname, 'src/scripts/components/'),
+      Components: path.resolve(__dirname, 'src/components/'),
+      JScomponents: path.resolve(__dirname, 'src/scripts/components/'),
       Utils: path.resolve(__dirname, 'src/scripts/utils/'),
     }
   }
