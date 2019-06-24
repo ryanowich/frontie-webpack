@@ -19,7 +19,7 @@
     "number-leading-zero": "never",
     "no-descending-specificity": null,
     "rule-empty-line-before": null,
-    "selector-list-comma-newline-after": "always",
+    "selector-list-comma-newline-after": null,
     "selector-pseudo-element-colon-notation": null
   }
 }
